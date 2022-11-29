@@ -1,0 +1,46 @@
+comando linux...
+
+
+==instalar
+
+==desinstalar
+
+
+sudo su ==usuario mestre
+
+mv== mover arquivo 
+
+sudo== nessesrio para executar sem ser mestre 
+
+rm== apagar arquivo 
+
+rm -r == apagar diretorio
+
+mkdir ==para criar uma pasta
+	
+ls== listar
+
+cd== navegar entre os diretorios 
+
+cat > nome arquivo == para criar arquivo 
+
+touch <arquivo> == criar arquivo em branc0
+ 
+touch arquivo1 arquivo2 arquivo3 == criar varios arquivos de uma vez
+ 
+touch /home/usuario/Documentos/arquivo1.txt == Criando arquivo dentro de um diretório específico
+
+rename 's/old-name/new-name/' old-name == renomear arvivo  (INSTALAR RENAME)
+
+Solução Apache :
+Após muito penar, posto aqui a solução.
+apt-get purge apache2 apache2.2-common
+rm -Rf /etc/apache
+apt-get clean
+apt-get update
+apt-get install apache2 apache2.2-common
+
+Solução mysql:
+parar resetar, iniciar
+
+http://127.0.0.1/
