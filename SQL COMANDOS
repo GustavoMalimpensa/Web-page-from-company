@@ -3,7 +3,8 @@ TABELA USUARIOS
 ---------------------------------
 drop database cadastro;
 
-RENAME TABLE nome_da_tabela TO novo_nome_da_tabela;
+ALTER TABLE nome_da_tabela
+CHANGE nome_atual novo_nome [Tipo de Dados];
 
 NOT NULL == Obrigatorio escrever
     NULL == Não é obrigatorio escrever
